@@ -1,1 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2021-04-29T10:15:01.211Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" version="14.5.10" etag="Sbs5EIYO8knrWDggBsGn" type="github"><diagram id="CTsnZammjAMSIcORTnyI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-29T10:51:16.154Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="3py46sOSfxLA9kFdjd9a" version="14.5.10" type="github">
+  <diagram id="CTsnZammjAMSIcORTnyI" name="第 1 页">
+    <mxGraphModel dx="1773" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZHdbwzC-G7Lzx-5WtaMa-1" value="功能点-权限组-角色" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="10" width="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZHdbwzC-G7Lzx-5WtaMa-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZHdbwzC-G7Lzx-5WtaMa-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZHdbwzC-G7Lzx-5WtaMa-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZHdbwzC-G7Lzx-5WtaMa-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="65" />
+              <mxPoint x="380" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZHdbwzC-G7Lzx-5WtaMa-2" value="角色1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZHdbwzC-G7Lzx-5WtaMa-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZHdbwzC-G7Lzx-5WtaMa-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZHdbwzC-G7Lzx-5WtaMa-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZHdbwzC-G7Lzx-5WtaMa-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZHdbwzC-G7Lzx-5WtaMa-3" value="权限组1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZHdbwzC-G7Lzx-5WtaMa-7" value="功能点1:&lt;br&gt;页面权限" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="199" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZHdbwzC-G7Lzx-5WtaMa-8" value="功能点1:&lt;br&gt;按钮权限" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="199" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZHdbwzC-G7Lzx-5WtaMa-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZHdbwzC-G7Lzx-5WtaMa-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZHdbwzC-G7Lzx-5WtaMa-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZHdbwzC-G7Lzx-5WtaMa-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZHdbwzC-G7Lzx-5WtaMa-14" value="权限组2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="110" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZHdbwzC-G7Lzx-5WtaMa-15" value="功能点3:&lt;br&gt;页面权限" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="199" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZHdbwzC-G7Lzx-5WtaMa-16" value="功能点4:&lt;br&gt;按钮权限" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="199" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZHdbwzC-G7Lzx-5WtaMa-17" value="sso：登录校验&amp;nbsp;&lt;br&gt;acl：权限系统 （角色、功能权限、数据权限）&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;个人权限&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;部门权限&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;标签权限&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;项目权限&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;审计通道" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="290" width="270" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
