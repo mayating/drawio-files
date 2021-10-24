@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-10-24T10:33:11.473Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" version="14.8.4" etag="I6pKU_aVuwhM_Hx1eJAy" type="github"><diagram id="7-8bN6v-M_0XSG_AYW8F">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-24T10:42:25.107Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="5PGcCRcaiLFN3jHjmsEF" version="14.8.4" type="github">
+  <diagram id="7-8bN6v-M_0XSG_AYW8F" name="Page-1">
+    <mxGraphModel dx="909" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QgQib1zZA4WzbKAEES33-1" value="Spring Boot&amp;nbsp; + Shiro + JSP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="10" width="180" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="QgQib1zZA4WzbKAEES33-2" value="Spring Boot&amp;nbsp; + Shiro + JWT + 前端 Vue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="10" width="230" height="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
