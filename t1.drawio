@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-24T13:10:02.829Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="xg6iBE9VRfxrrBMqwXxg" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-24T13:52:30.082Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="sd3qeCdWJvkRa9zR0ut2" version="14.8.4" type="github">
   <diagram id="7-8bN6v-M_0XSG_AYW8F" name="Page-1">
     <mxGraphModel dx="1736" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,11 +64,23 @@
         <mxCell id="QgQib1zZA4WzbKAEES33-22" value="Token 校验流程：&lt;br&gt;&lt;ul&gt;&lt;li&gt;获取 token 中携带的 username 信息&lt;/li&gt;&lt;li&gt;进入数据库搜索这个用户，得到他的密码&lt;/li&gt;&lt;li&gt;使用用户的密码来校验 token 是否正确&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="274" y="200" width="266" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QgQib1zZA4WzbKAEES33-23" value="配置 JWT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="90" width="120" height="40" as="geometry" />
+        <mxCell id="QgQib1zZA4WzbKAEES33-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QgQib1zZA4WzbKAEES33-23" target="QgQib1zZA4WzbKAEES33-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QgQib1zZA4WzbKAEES33-23" value="2-0 JWT 工具类" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="185" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QgQib1zZA4WzbKAEES33-24" value="1.生成 token&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;用户名、过期时间、算法&lt;br&gt;2.校验 token&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;算法、用户名 --&amp;gt; 校验 token&lt;br&gt;3.获取 token 中的用户名&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;直接解码 token，获取用户名" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-          <mxGeometry x="590" y="80" width="190" height="100" as="geometry" />
+          <mxGeometry x="590" y="155" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QgQib1zZA4WzbKAEES33-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QgQib1zZA4WzbKAEES33-26" target="QgQib1zZA4WzbKAEES33-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QgQib1zZA4WzbKAEES33-26" value="1.导入依赖：shiro" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="70" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QgQib1zZA4WzbKAEES33-28" value="2-1 JWT 工具类" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="270" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
