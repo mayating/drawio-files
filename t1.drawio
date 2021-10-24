@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-24T12:51:50.683Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="fOlT7BuE0Kv6qIA3oPlW" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-24T13:03:09.028Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="_DMHS5Ev9-Nz7rx1dKKi" version="14.8.4" type="github">
   <diagram id="7-8bN6v-M_0XSG_AYW8F" name="Page-1">
     <mxGraphModel dx="1736" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="30" y="10" width="180" height="10" as="geometry" />
         </mxCell>
         <mxCell id="QgQib1zZA4WzbKAEES33-2" value="Spring Boot&amp;nbsp; + Shiro + JWT + 前端 Vue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="10" width="230" height="10" as="geometry" />
+          <mxGeometry x="670" y="10" width="230" height="10" as="geometry" />
         </mxCell>
         <mxCell id="QgQib1zZA4WzbKAEES33-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QgQib1zZA4WzbKAEES33-3" target="QgQib1zZA4WzbKAEES33-4">
           <mxGeometry relative="1" as="geometry" />
@@ -54,6 +54,15 @@
         </mxCell>
         <mxCell id="QgQib1zZA4WzbKAEES33-18" value="注入说明：Realm-&amp;gt;Security Manager-&amp;gt;ShiroFilterFactoryBean --》ShiroFilter&lt;br&gt;&lt;br&gt;注入 Realm 时，可设置密码加密器（MD5+盐+hash 散列）；&lt;br&gt;注入 Realm 和注入安全管理器时，均可设置缓存，区别在于前者是细粒度的，后者是粗粒度的，范围更广；&lt;br&gt;集成 Redis 做缓存，（开启全局缓存、开启认证缓存，Shiro 默认开启）开启授权缓存、分别设置认证和授权缓存名称、告诉 Realm 当前使用哪种缓存管理器；&lt;br&gt;缓存管理器是用来获取缓存操作类的；&lt;br&gt;综上所述，新增 &lt;font color=&quot;#ff0000&quot;&gt;密码加密 + Redis&lt;/font&gt; 缓存配置 2大特性。&lt;br&gt;&lt;br&gt;ShiroFilterFactoryBean是用来获取 ShiroFilter 的；其示例对象可配置过滤器链的定义 Map，key 是资源路径、value 是过滤器，一般写缩写，如 anon、authc；可设置授权资源未登录的展示页，即登录页，设置认证失败返回页面。&lt;br&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="-239" y="710" width="420" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="QgQib1zZA4WzbKAEES33-19" value="" style="swimlane;startSize=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-240" width="490" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="QgQib1zZA4WzbKAEES33-21" value="Token加密说明：&lt;br&gt;&lt;ul&gt;&lt;li&gt;携带了 username 信息在 token 中&lt;/li&gt;&lt;li&gt;设定了过期时间&lt;/li&gt;&lt;li&gt;使用用户登入密码对 token 进行加密&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="274" y="90" width="266" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QgQib1zZA4WzbKAEES33-22" value="Token 校验流程：&lt;br&gt;&lt;ul&gt;&lt;li&gt;获取 token 中携带的 username 信息&lt;/li&gt;&lt;li&gt;进入数据库搜索这个用户，得到他的密码&lt;/li&gt;&lt;li&gt;使用用户的密码来校验 token 是否正确&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="274" y="200" width="266" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
