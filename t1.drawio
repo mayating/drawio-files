@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-24T13:52:30.082Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="sd3qeCdWJvkRa9zR0ut2" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-24T14:33:25.375Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="ckxvhw8lM_jLvtI9dLxP" version="14.8.4" type="github">
   <diagram id="7-8bN6v-M_0XSG_AYW8F" name="Page-1">
     <mxGraphModel dx="1736" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,8 +79,14 @@
         <mxCell id="QgQib1zZA4WzbKAEES33-26" value="1.导入依赖：shiro" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="70" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QgQib1zZA4WzbKAEES33-28" value="2-1 JWT 工具类" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QgQib1zZA4WzbKAEES33-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QgQib1zZA4WzbKAEES33-28" target="QgQib1zZA4WzbKAEES33-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QgQib1zZA4WzbKAEES33-28" value="2-1 统一结果返回" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QgQib1zZA4WzbKAEES33-30" value="2-1 统一异常处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="350" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
