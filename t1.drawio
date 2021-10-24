@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-24T11:06:09.219Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="NsAShlE1eQltaHzlXstm" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-24T11:08:42.550Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="ClHpCdynxcy1Uqh8-aDP" version="14.8.4" type="github">
   <diagram id="7-8bN6v-M_0XSG_AYW8F" name="Page-1">
     <mxGraphModel dx="1736" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,11 +25,20 @@
         <mxCell id="QgQib1zZA4WzbKAEES33-6" value="继承&amp;nbsp;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;AuthorizingRealm，实现&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; background-color: rgb(255 , 255 , 255)&quot;&gt;doGetAuthenticationInfo&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;、&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;doGetAuthorizationInfo 认证授权方法&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-240" y="225" width="260" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="QgQib1zZA4WzbKAEES33-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QgQib1zZA4WzbKAEES33-7" target="QgQib1zZA4WzbKAEES33-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QgQib1zZA4WzbKAEES33-7" value="3.自定义 Realm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="240" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QgQib1zZA4WzbKAEES33-9" value="user、role、permission&lt;br&gt;user_role_relation、&lt;br&gt;role_permission_relation" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="-200" y="90" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QgQib1zZA4WzbKAEES33-10" value="3.Shiro 配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="350" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QgQib1zZA4WzbKAEES33-12" value="注入自定义 Realm、注入安全管理器、注入 ShiroFilter" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="330" width="260" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
