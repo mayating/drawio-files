@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-24T12:31:47.854Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="fdp9Q2qhVROMcnEn5B8I" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-24T12:44:34.847Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="Z9V2Ez8BKeFLA_bBi55Q" version="14.8.4" type="github">
   <diagram id="7-8bN6v-M_0XSG_AYW8F" name="Page-1">
     <mxGraphModel dx="1736" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,7 +47,13 @@
           <mxGeometry y="430" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QgQib1zZA4WzbKAEES33-15" value="认证方法：构造 UsernamePasswordToken，根据用户名从数据库获取用户信息，判断用户是否存在，若存在，构造 SimpleAuthenticationInfo 对象并返回（返回的目的是交给 Shiro 进行用户名和密码校验）&lt;div style=&quot;text-align: justify&quot;&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="500" width="420" height="100" as="geometry" />
+          <mxGeometry x="-240" y="500" width="420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QgQib1zZA4WzbKAEES33-16" value="授权方法：获取用户名，数据库查询用户的所有权限（角色、权限），构造 SimpleAuthorizationInfo，将角色、权限给对象参数赋值，并返回对象&lt;div style=&quot;text-align: justify&quot;&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-239" y="600" width="420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QgQib1zZA4WzbKAEES33-18" value="注入说明：Realm-&amp;gt;Security Manager-&amp;gt;ShiroFilterFactoryBean --》ShiroFilter&lt;br&gt;&lt;br&gt;注入 Realm 时，可设置密码加密器（MD5+盐+hash 散列）；&lt;br&gt;注入 Realm 和注入安全管理器时，均可设置缓存，区别在于前者是细粒度的，后者是粗粒度的，范围更广；&lt;br&gt;集成 Redis 做缓存，（开启全局缓存、开启认证缓存，Shiro 默认开启）开启授权缓存、分别设置认证和授权缓存名称、告诉 Realm 当前使用哪种缓存管理器；&lt;br&gt;缓存管理器是用来获取缓存操作类的；&lt;br&gt;综上所述，新增 密码加密 + Redis 缓存配置 2大特性。&lt;br&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-239" y="710" width="420" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
