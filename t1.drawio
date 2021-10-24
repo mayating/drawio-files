@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-24T11:04:23.655Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="Jj8buSTbXOXqSXLFOb-L" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-24T11:04:52.089Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="y5ns7A2QB_LUpiNbjNPD" version="14.8.4" type="github">
   <diagram id="7-8bN6v-M_0XSG_AYW8F" name="Page-1">
     <mxGraphModel dx="1736" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,8 +28,8 @@
         <mxCell id="QgQib1zZA4WzbKAEES33-7" value="3.自定义 Realm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="240" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QgQib1zZA4WzbKAEES33-9" value="user、role、permission" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="90" width="80" height="100" as="geometry" />
+        <mxCell id="QgQib1zZA4WzbKAEES33-9" value="user、role、permission&lt;br&gt;user_role_relation、&lt;br&gt;role_permission_relation" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="90" width="180" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
