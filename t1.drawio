@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-24T12:19:21.567Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="Drxfra-WVnkC_DIm2Gew" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-24T12:24:37.236Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="8BHl9GQMKGYqonHIeAiK" version="14.8.4" type="github">
   <diagram id="7-8bN6v-M_0XSG_AYW8F" name="Page-1">
     <mxGraphModel dx="1736" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,6 +45,9 @@
         </mxCell>
         <mxCell id="QgQib1zZA4WzbKAEES33-13" value="4.Controller 验证登录、授权、退出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="430" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QgQib1zZA4WzbKAEES33-15" value="认证方法：构造 UsernamePasswordToken，根据用户名从数据库获取用户信息，判断用户是否存在，若存在，构造 SimpleAuthenticationInfo 对象并返回（返回的目的是交给 Shiro 进行密码校验，若检验通过）&lt;div style=&quot;text-align: justify&quot;&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="500" width="420" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
