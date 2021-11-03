@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T23:42:30.028Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="ZGId_4LWkTe_9WIFVZW2" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T23:56:51.583Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="yv2HCvZsWX_WXj1__Qqt" version="14.8.4" type="github">
   <diagram id="In-pe_8dDN3AHprKOwlk" name="Page-1">
     <mxGraphModel dx="905" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,14 +10,11 @@
         <mxCell id="6ZBNiYYklUK-OKpeA_Fy-1" value="username + password" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="60" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6ZBNiYYklUK-OKpeA_Fy-2" target="6ZBNiYYklUK-OKpeA_Fy-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="6ZBNiYYklUK-OKpeA_Fy-2" value="/login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="140" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-4" value="accessToken" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="220" width="150" height="20" as="geometry" />
+        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-4" value="创建accessToken" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="370" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6ZBNiYYklUK-OKpeA_Fy-6" value="/article" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="510" y="340" width="150" height="20" as="geometry" />
@@ -35,7 +32,19 @@
           <mxGeometry x="510" y="240" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6ZBNiYYklUK-OKpeA_Fy-14" value="权限资源的访问，头部 authorization 必须携带 accessToken" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="310" width="210" height="40" as="geometry" />
+          <mxGeometry x="40" y="340" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-16" value="密码解密比对" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="250" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-17" value="查数据库判用户存在" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="200" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-18" value="设置 refreshToken" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="310" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-19" value="返回accessToken" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="430" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
