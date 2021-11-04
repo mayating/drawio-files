@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T04:14:12.870Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="XuoS9b1MUjQmO0rDwykd" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-04T04:15:35.780Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="aquHxWTIH8jXKxv00Agw" version="14.8.4" type="github">
   <diagram id="In-pe_8dDN3AHprKOwlk" name="Page-1">
     <mxGraphModel dx="905" dy="1695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -117,8 +117,14 @@
         <mxCell id="6ZBNiYYklUK-OKpeA_Fy-44" value="ShiroConfig" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="379" y="555" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-45" value="RedisCache缓存管理类" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="270" y="620" width="130" height="30" as="geometry" />
+        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-45" value="自定义缓存管理类&lt;br&gt;RedisCache" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="270" y="620" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-46" value="自定义缓存管理器&lt;br&gt;MyRedisCacheManager" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="379" y="620" width="131" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-47" value="自定义 RedisTemplate 注入 Spring 容器" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="539.5" y="620" width="131" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
