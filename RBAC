@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T01:02:37.871Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="m2IeCscJ8tXXEYDWZ_La" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-04T01:04:12.051Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="HiwgO6aUQUFOOeOoRh6l" version="14.8.4" type="github">
   <diagram id="In-pe_8dDN3AHprKOwlk" name="Page-1">
     <mxGraphModel dx="905" dy="1695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,6 +54,9 @@
         <mxCell id="6ZBNiYYklUK-OKpeA_Fy-19" value="返回accessToken" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="430" width="150" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6ZBNiYYklUK-OKpeA_Fy-21" target="6ZBNiYYklUK-OKpeA_Fy-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6ZBNiYYklUK-OKpeA_Fy-21" value="接口有权限，交给 realm 进行权限校验" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="510" y="290" width="150" height="30" as="geometry" />
         </mxCell>
@@ -71,6 +74,21 @@
         </mxCell>
         <mxCell id="6ZBNiYYklUK-OKpeA_Fy-27" value="返回 SimpleAuthentication" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1170" y="235" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6ZBNiYYklUK-OKpeA_Fy-29" target="6ZBNiYYklUK-OKpeA_Fy-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-29" value="查询用户角色，并添加" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="290" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6ZBNiYYklUK-OKpeA_Fy-31" target="6ZBNiYYklUK-OKpeA_Fy-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-31" value="查询用户权限，并添加" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="910" y="290" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-33" value="返回 SimpleAuthorizationInfo" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="290" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
