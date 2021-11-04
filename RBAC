@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T01:06:05.888Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="lfd1LOyn1EitC_tXvwos" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-04T01:08:15.203Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="Uwnbo1Zf39Xprj0hcS4A" version="14.8.4" type="github">
   <diagram id="In-pe_8dDN3AHprKOwlk" name="Page-1">
     <mxGraphModel dx="905" dy="1695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
           <mxGeometry x="270" y="370" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6ZBNiYYklUK-OKpeA_Fy-6" value="/article" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="510" y="430" width="150" height="20" as="geometry" />
+          <mxGeometry x="510" y="490" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6ZBNiYYklUK-OKpeA_Fy-8" value="authorization: accessToken" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="60" width="150" height="20" as="geometry" />
@@ -87,11 +87,14 @@
         <mxCell id="6ZBNiYYklUK-OKpeA_Fy-31" value="查询用户权限，并添加" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="910" y="290" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6ZBNiYYklUK-OKpeA_Fy-33" target="6ZBNiYYklUK-OKpeA_Fy-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6ZBNiYYklUK-OKpeA_Fy-33" value="返回 SimpleAuthorizationInfo" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1120" y="290" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6ZBNiYYklUK-OKpeA_Fy-35" value="shiro 内部判断 RequiresPermissions 用户是否有权限访问" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="490" y="350" width="190" height="50" as="geometry" />
+          <mxGeometry x="1360" y="280" width="190" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
