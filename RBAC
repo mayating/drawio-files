@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T23:56:13.747Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="1i6JFSfsLt8UuxGF_lgm" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-04T23:56:33.571Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="ltL-WCUwoFgX1azRkjlY" version="14.8.4" type="github">
   <diagram id="In-pe_8dDN3AHprKOwlk" name="Page-1">
     <mxGraphModel dx="1732" dy="1760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,11 +129,17 @@
         <mxCell id="6ZBNiYYklUK-OKpeA_Fy-48" value="Realm 开启缓存管理" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="696" y="620" width="131" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-49" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6ZBNiYYklUK-OKpeA_Fy-49" target="6ZBNiYYklUK-OKpeA_Fy-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-49" value="登录表单" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-310" y="90" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6ZBNiYYklUK-OKpeA_Fy-50" value="vue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-200" y="30" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6ZBNiYYklUK-OKpeA_Fy-51" value="/login" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="175" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
