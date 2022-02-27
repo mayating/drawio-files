@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T02:17:31.956Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="4UXr6cLLZU19Ju4d7GQt" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-27T02:18:04.477Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="pMVc2K0xhm4h3Rq2v6dh" version="16.6.4" type="github">
   <diagram id="OUncFXIf3MKFbCyhjfHu" name="Page-1">
     <mxGraphModel dx="870" dy="1708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -148,16 +148,16 @@
         <mxCell id="1AdAIkiUYNUF_QEMxwcu-53" value="数据库服务器1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1127.5" y="30" width="85" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1AdAIkiUYNUF_QEMxwcu-56" value="Nginx集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-56" value="Nginx集群" style="text;html=1;strokeColor=#B20000;fillColor=#e51400;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="600" y="450" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1AdAIkiUYNUF_QEMxwcu-57" value="Tomcat集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-57" value="Tomcat集群" style="text;html=1;strokeColor=#B20000;fillColor=#e51400;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="826.13" y="450" width="67.75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1AdAIkiUYNUF_QEMxwcu-58" value="Redis集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-58" value="Redis集群" style="text;html=1;strokeColor=#B20000;fillColor=#e51400;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1140" y="670" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1AdAIkiUYNUF_QEMxwcu-59" value="MySQL集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-59" value="MySQL集群" style="text;html=1;strokeColor=#B20000;fillColor=#e51400;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1130" y="-90" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1AdAIkiUYNUF_QEMxwcu-60" value="数据库服务器2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
