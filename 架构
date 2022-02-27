@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T02:28:26.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="IHk80635H2ituh2G3-wZ" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-27T02:32:42.982Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="tF39NnybZs2Cd18Uk4DJ" version="16.6.4" type="github">
   <diagram id="OUncFXIf3MKFbCyhjfHu" name="Page-1">
     <mxGraphModel dx="870" dy="1708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-90" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="642.25" y="840" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-88" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="662.25" y="860" width="150" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="1AdAIkiUYNUF_QEMxwcu-83" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="320" y="-120" width="980" height="830" as="geometry" />
         </mxCell>
@@ -229,6 +235,54 @@
         </mxCell>
         <mxCell id="1AdAIkiUYNUF_QEMxwcu-84" value="图1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="780" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-87" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;startArrow=classic;startFill=1;" edge="1" parent="1" source="1AdAIkiUYNUF_QEMxwcu-85" target="1AdAIkiUYNUF_QEMxwcu-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-85" value="应用&lt;br&gt;程序" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="672.25" y="870" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-104" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.025;entryY=0.475;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;startArrow=classic;startFill=1;" edge="1" parent="1" source="1AdAIkiUYNUF_QEMxwcu-86" target="1AdAIkiUYNUF_QEMxwcu-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-86" value="Jedis" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="762.25" y="870" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-89" value="Tomcat" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="707.25" y="920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-91" value="应用服务器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="715" y="950" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-93" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="735" width="120" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-94" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="970" y="765" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-95" value="Redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="777" width="60" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-96" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="970" y="875" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-97" value="Redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="887" width="60" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-98" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="970" y="975" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-99" value="Redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="987" width="60" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-100" value="缓存服务器1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="985" y="815" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-101" value="缓存服务器2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="985" y="925" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-102" value="缓存服务器3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="985" y="1025" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
