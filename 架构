@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T02:38:57.627Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="IK3TcWPGlpfqvHxR8lVf" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-27T02:55:15.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="2ZFw49QVSq2CNFdK20qS" version="16.6.4" type="github">
   <diagram id="OUncFXIf3MKFbCyhjfHu" name="Page-1">
     <mxGraphModel dx="870" dy="1708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -305,6 +305,21 @@
         </mxCell>
         <mxCell id="1AdAIkiUYNUF_QEMxwcu-105" value="MySQL&lt;br&gt;Proxy" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="950" y="86" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-116" value="应用层" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="850" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-117" value="传输层" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="910" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-118" value="网络层" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="970" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-119" value="链路层" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1030" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-121" value="物理层" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1090" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
