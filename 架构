@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T02:55:15.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="2ZFw49QVSq2CNFdK20qS" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-27T03:05:15.424Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="fYd9nShzJZvAKH-h-9pU" version="16.6.4" type="github">
   <diagram id="OUncFXIf3MKFbCyhjfHu" name="Page-1">
     <mxGraphModel dx="870" dy="1708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -320,6 +320,57 @@
         </mxCell>
         <mxCell id="1AdAIkiUYNUF_QEMxwcu-121" value="物理层" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="150" y="1090" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-131" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;startArrow=classic;startFill=1;" edge="1" parent="1" source="1AdAIkiUYNUF_QEMxwcu-122" target="1AdAIkiUYNUF_QEMxwcu-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-122" value="用户进程" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-132" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.406;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;startArrow=classic;startFill=1;" edge="1" parent="1" source="1AdAIkiUYNUF_QEMxwcu-123" target="1AdAIkiUYNUF_QEMxwcu-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-123" value="用户进程" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-133" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;startArrow=classic;startFill=1;" edge="1" parent="1" source="1AdAIkiUYNUF_QEMxwcu-124" target="1AdAIkiUYNUF_QEMxwcu-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-124" value="用户进程" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-134" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;startArrow=classic;startFill=1;" edge="1" parent="1" source="1AdAIkiUYNUF_QEMxwcu-125" target="1AdAIkiUYNUF_QEMxwcu-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-125" value="用户进程" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-135" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;startArrow=classic;startFill=1;" edge="1" parent="1" source="1AdAIkiUYNUF_QEMxwcu-127" target="1AdAIkiUYNUF_QEMxwcu-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-136" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;startArrow=classic;startFill=1;" edge="1" parent="1" source="1AdAIkiUYNUF_QEMxwcu-127" target="1AdAIkiUYNUF_QEMxwcu-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-127" value="Socket抽象层" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="632.25" y="1220" width="117.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-137" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;startArrow=classic;startFill=1;" edge="1" parent="1" source="1AdAIkiUYNUF_QEMxwcu-128" target="1AdAIkiUYNUF_QEMxwcu-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-128" value="TCP" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="585" y="1310" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-138" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;startArrow=classic;startFill=1;" edge="1" parent="1" source="1AdAIkiUYNUF_QEMxwcu-129" target="1AdAIkiUYNUF_QEMxwcu-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-129" value="TCP" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1310" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-130" value="IP" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-139" value="Socket抽象层" style="text;html=1;strokeColor=#ae4132;fillColor=#fad9d5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1470" width="97.75" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
