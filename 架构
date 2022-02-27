@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T02:32:42.982Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="tF39NnybZs2Cd18Uk4DJ" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-27T02:38:57.627Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="IK3TcWPGlpfqvHxR8lVf" version="16.6.4" type="github">
   <diagram id="OUncFXIf3MKFbCyhjfHu" name="Page-1">
     <mxGraphModel dx="870" dy="1708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,6 +61,14 @@
         <mxCell id="1AdAIkiUYNUF_QEMxwcu-81" value="session缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="1AdAIkiUYNUF_QEMxwcu-45">
           <mxGeometry x="0.0383" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-108" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;startArrow=classic;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1AdAIkiUYNUF_QEMxwcu-17" target="1AdAIkiUYNUF_QEMxwcu-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-115" value="读/写操作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="1AdAIkiUYNUF_QEMxwcu-108">
+          <mxGeometry x="0.106" y="2" relative="1" as="geometry">
+            <mxPoint x="15" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1AdAIkiUYNUF_QEMxwcu-17" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
@@ -220,19 +228,6 @@
         <mxCell id="1AdAIkiUYNUF_QEMxwcu-69" value="&lt;font color=&quot;#ff0000&quot;&gt;slave&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1212.5" y="201" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1AdAIkiUYNUF_QEMxwcu-78" value="可读可写&lt;br&gt;以写为主" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="1AdAIkiUYNUF_QEMxwcu-17" target="1AdAIkiUYNUF_QEMxwcu-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1AdAIkiUYNUF_QEMxwcu-79" value="读操作" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" target="1AdAIkiUYNUF_QEMxwcu-51">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="920" y="240" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1AdAIkiUYNUF_QEMxwcu-80" value="读操作" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" target="1AdAIkiUYNUF_QEMxwcu-47">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="920" y="240" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="1AdAIkiUYNUF_QEMxwcu-84" value="图1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="780" y="680" width="60" height="30" as="geometry" />
         </mxCell>
@@ -283,6 +278,33 @@
         </mxCell>
         <mxCell id="1AdAIkiUYNUF_QEMxwcu-102" value="缓存服务器3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="985" y="1025" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-109" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;startArrow=classic;startFill=1;" edge="1" parent="1" source="1AdAIkiUYNUF_QEMxwcu-105" target="1AdAIkiUYNUF_QEMxwcu-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-113" value="读操作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="1AdAIkiUYNUF_QEMxwcu-109">
+          <mxGeometry x="-0.0221" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-110" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;startArrow=classic;startFill=1;" edge="1" parent="1" source="1AdAIkiUYNUF_QEMxwcu-105" target="1AdAIkiUYNUF_QEMxwcu-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-112" value="写操作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="1AdAIkiUYNUF_QEMxwcu-110">
+          <mxGeometry x="-0.0672" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-111" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;startArrow=classic;startFill=1;" edge="1" parent="1" source="1AdAIkiUYNUF_QEMxwcu-105" target="1AdAIkiUYNUF_QEMxwcu-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-114" value="读操作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="1AdAIkiUYNUF_QEMxwcu-111">
+          <mxGeometry x="-0.0469" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1AdAIkiUYNUF_QEMxwcu-105" value="MySQL&lt;br&gt;Proxy" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="950" y="86" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
