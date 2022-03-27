@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-27T08:48:55.064Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="iZOazoQXHgwkbJm6BgjN" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-27T08:54:37.037Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="R8mC-lCliUQaBuKWs9tJ" version="17.1.2" type="github">
   <diagram id="l4hQrR8PrqlGI8qxXGVv" name="Page-1">
     <mxGraphModel dx="2253" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -196,7 +196,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mxssg6-39wUfqJUSVh3F-66" value="getAdaptiveExtension" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="541.25" width="150" height="25" as="geometry" />
+          <mxGeometry x="960" y="640" width="150" height="25" as="geometry" />
         </mxCell>
         <mxCell id="mxssg6-39wUfqJUSVh3F-67" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #871094&quot;&gt;cachedAdaptiveInstance&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-30" y="760" width="180" height="30" as="geometry" />
@@ -212,7 +212,7 @@
         <mxCell id="mxssg6-39wUfqJUSVh3F-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="mxssg6-39wUfqJUSVh3F-68" target="mxssg6-39wUfqJUSVh3F-127">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1241" y="596" />
+              <mxPoint x="1241" y="694.75" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -230,7 +230,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mxssg6-39wUfqJUSVh3F-68" value="createAdaptiveExtension" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1166" y="541.25" width="150" height="25" as="geometry" />
+          <mxGeometry x="1166" y="640" width="150" height="25" as="geometry" />
         </mxCell>
         <mxCell id="mxssg6-39wUfqJUSVh3F-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="mxssg6-39wUfqJUSVh3F-73" target="mxssg6-39wUfqJUSVh3F-74">
           <mxGeometry relative="1" as="geometry" />
@@ -433,7 +433,7 @@
         <mxCell id="mxssg6-39wUfqJUSVh3F-108" value="loadClass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2172.5" y="350" width="80" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="mxssg6-39wUfqJUSVh3F-110" value="cacheAdaptiveClass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mxssg6-39wUfqJUSVh3F-110" value="cacheAdaptiveClass" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="2322.5" y="350" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="mxssg6-39wUfqJUSVh3F-113" value="cacheWrapperCLass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -460,14 +460,30 @@
         <mxCell id="mxssg6-39wUfqJUSVh3F-123" value="saveInExtensionClass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2510" y="575" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="mxssg6-39wUfqJUSVh3F-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="mxssg6-39wUfqJUSVh3F-125" target="mxssg6-39wUfqJUSVh3F-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mxssg6-39wUfqJUSVh3F-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="mxssg6-39wUfqJUSVh3F-125" target="mxssg6-39wUfqJUSVh3F-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mxssg6-39wUfqJUSVh3F-149" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mxssg6-39wUfqJUSVh3F-148">
+          <mxGeometry x="-0.3752" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxssg6-39wUfqJUSVh3F-150" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mxssg6-39wUfqJUSVh3F-148">
+          <mxGeometry x="0.1239" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mxssg6-39wUfqJUSVh3F-125" value="getAdaptiveExtensionClass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1379.5" y="541.25" width="150" height="25" as="geometry" />
+          <mxGeometry x="1379.5" y="640" width="150" height="25" as="geometry" />
         </mxCell>
         <mxCell id="mxssg6-39wUfqJUSVh3F-127" value="通过反射进行实例化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="590" width="150" height="25" as="geometry" />
+          <mxGeometry x="1380" y="688.75" width="150" height="25" as="geometry" />
         </mxCell>
         <mxCell id="mxssg6-39wUfqJUSVh3F-129" value="injectExtension" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="640" width="150" height="25" as="geometry" />
+          <mxGeometry x="1380" y="738.75" width="150" height="25" as="geometry" />
         </mxCell>
         <mxCell id="mxssg6-39wUfqJUSVh3F-134" value="isSetter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1610" y="400" width="99" height="35" as="geometry" />
@@ -477,6 +493,12 @@
         </mxCell>
         <mxCell id="mxssg6-39wUfqJUSVh3F-139" value="injectValue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1610" y="517.5" width="99" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mxssg6-39wUfqJUSVh3F-145" value="getExtensionClasses" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="640" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mxssg6-39wUfqJUSVh3F-147" value="createAdaptiveExtensionClass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="688.75" width="170" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
