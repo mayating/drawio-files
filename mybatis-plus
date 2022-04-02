@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T23:35:44.747Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" version="17.2.4" etag="iV1vguqZpzXYjwgfSNmY" type="github"><diagram id="EzFvoz5X75S8Gw88mgI8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-02T01:39:10.042Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="F5p1aCMsQ5keIlSuwv_I" version="17.4.0" type="github">
+  <diagram id="EzFvoz5X75S8Gw88mgI8" name="Page-1">
+    <mxGraphModel dx="882" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UELmR-zoIwM4hT0mjt3O-1" value="BaseMapper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="150" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UELmR-zoIwM4hT0mjt3O-2" value="SqlSessionFactory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="300" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UELmR-zoIwM4hT0mjt3O-3" value="DataSource" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="290" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UELmR-zoIwM4hT0mjt3O-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="UELmR-zoIwM4hT0mjt3O-4" target="UELmR-zoIwM4hT0mjt3O-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="772" y="360" />
+              <mxPoint x="250" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UELmR-zoIwM4hT0mjt3O-4" value="GlobalConfig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="717" y="290" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UELmR-zoIwM4hT0mjt3O-6" value="MybatisSqlSessionFactoryBean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UELmR-zoIwM4hT0mjt3O-7" value="mybatisplus.extension" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="440" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UELmR-zoIwM4hT0mjt3O-8" value="DbConfig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="360" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UELmR-zoIwM4hT0mjt3O-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UELmR-zoIwM4hT0mjt3O-9" target="UELmR-zoIwM4hT0mjt3O-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UELmR-zoIwM4hT0mjt3O-9" value="MybatisConfiguration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="440" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UELmR-zoIwM4hT0mjt3O-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UELmR-zoIwM4hT0mjt3O-12" target="UELmR-zoIwM4hT0mjt3O-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UELmR-zoIwM4hT0mjt3O-12" value="plugins" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="530" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
