@@ -1,11 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T09:12:31.245Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="GM8u6vkXFhS3LlBXlXPi" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T09:30:27.519Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="bLhYn5XlHfulsf00UaI2" version="20.5.1" type="github">
   <diagram id="AWlHkFozg6T0OUSiaJ78" name="第 1 页">
     <mxGraphModel dx="1426" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FJLC78gdKueV8bfcv4Ok-3" value="理论" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="400" width="70" height="50" as="geometry" />
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-22" value="微服务熔断降级与限流" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="760" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-23" value="微服务链路追踪" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="760" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-24" value="微服务网关路由" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="760" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-25" value="微服务权限认证" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="760" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-26" value="微服务消息总线" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="850" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-27" value="微服务监控" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="850" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-28" value="DevOps" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="850" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-29" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="860" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FJLC78gdKueV8bfcv4Ok-3" value="分布式理论" style="ellipse;whiteSpace=wrap;html=1;" parent="jUI0hKf_KH-rqzxNfQaY-29" vertex="1">
+          <mxGeometry x="22.5" y="90" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-11" value="分布式RPC调用" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jUI0hKf_KH-rqzxNfQaY-29">
+          <mxGeometry x="17.5" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-12" value="分布式锁" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jUI0hKf_KH-rqzxNfQaY-29">
+          <mxGeometry x="30" y="350" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-13" value="分布式存储" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jUI0hKf_KH-rqzxNfQaY-29">
+          <mxGeometry x="610" y="270" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-14" value="分布式注册中心" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jUI0hKf_KH-rqzxNfQaY-29">
+          <mxGeometry x="310" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-15" value="分布式配置中心" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jUI0hKf_KH-rqzxNfQaY-29">
+          <mxGeometry x="460" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-16" value="分布式全局ID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jUI0hKf_KH-rqzxNfQaY-29">
+          <mxGeometry x="280" y="350" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-17" value="分布式事务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jUI0hKf_KH-rqzxNfQaY-29">
+          <mxGeometry x="140" y="350" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-18" value="分布式定时任务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jUI0hKf_KH-rqzxNfQaY-29">
+          <mxGeometry x="420" y="350" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-19" value="分布式日志搜索系统" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jUI0hKf_KH-rqzxNfQaY-29">
+          <mxGeometry x="560" y="350" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-20" value="消息队列" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jUI0hKf_KH-rqzxNfQaY-29">
+          <mxGeometry x="150" y="270" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-21" value="负载均衡" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jUI0hKf_KH-rqzxNfQaY-29">
+          <mxGeometry x="12.5" y="185" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-30" value="业务相关" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jUI0hKf_KH-rqzxNfQaY-29">
+          <mxGeometry x="740" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jUI0hKf_KH-rqzxNfQaY-31" value="节点相关" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jUI0hKf_KH-rqzxNfQaY-29">
+          <mxGeometry x="740" y="280" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
