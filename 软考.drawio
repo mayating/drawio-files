@@ -1,9 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2023-09-08T00:26:48.730Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.6.9" etag="tW3hPiW3kl4H8vr3q1gE" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-10T15:02:08.336Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="rR9qrKeoml7VT1BzDAkP" version="21.6.9" type="github">
   <diagram name="第 1 页" id="BgyJU8uB-wZk6JXjtBK4">
-    <mxGraphModel>
+    <mxGraphModel dx="908" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Fl0cmVswwvsK2h8AiVSS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fl0cmVswwvsK2h8AiVSS-1" target="Fl0cmVswwvsK2h8AiVSS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fl0cmVswwvsK2h8AiVSS-7" value="主存单元的地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fl0cmVswwvsK2h8AiVSS-5">
+          <mxGeometry x="-0.0857" relative="1" as="geometry">
+            <mxPoint y="-77" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fl0cmVswwvsK2h8AiVSS-1" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="50" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fl0cmVswwvsK2h8AiVSS-2" value="主存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fl0cmVswwvsK2h8AiVSS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fl0cmVswwvsK2h8AiVSS-3" target="Fl0cmVswwvsK2h8AiVSS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fl0cmVswwvsK2h8AiVSS-3" value="cache缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="280" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fl0cmVswwvsK2h8AiVSS-9" value="存储最活跃的程序和数据，来自于主存拷贝&lt;br&gt;&lt;br&gt;命中、替换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="257.5" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Fl0cmVswwvsK2h8AiVSS-10" value="控制部分" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="262.5" width="62.5" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Fl0cmVswwvsK2h8AiVSS-11" value="存储器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="290" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fl0cmVswwvsK2h8AiVSS-13" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="185" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fl0cmVswwvsK2h8AiVSS-12" value="&lt;font color=&quot;#ff0000&quot;&gt;地址映射：主存地址 -&amp;gt; Cache存储器地址。硬件自动完成映射&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="175" y="190" width="350" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
