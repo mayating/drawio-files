@@ -1,9 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2023-11-29T07:41:40.268Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.4" etag="IRpnlVTfakbToMfraUDu" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-29T14:38:08.697Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="QTP2GOguTXWSlVXv2CUp" version="22.1.4" type="github">
   <diagram name="第 1 页" id="uiwS12z77YfrL4sfW6NH">
-    <mxGraphModel>
+    <mxGraphModel dx="1781" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3GadSpZ1ZQHSwgchS2_4-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="370" width="310" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="3GadSpZ1ZQHSwgchS2_4-2" value="动力电池" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="450" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3GadSpZ1ZQHSwgchS2_4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3GadSpZ1ZQHSwgchS2_4-3" target="3GadSpZ1ZQHSwgchS2_4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3GadSpZ1ZQHSwgchS2_4-3" value="车载充电机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369" y="450" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3GadSpZ1ZQHSwgchS2_4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3GadSpZ1ZQHSwgchS2_4-4" target="3GadSpZ1ZQHSwgchS2_4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3GadSpZ1ZQHSwgchS2_4-9" value="输入电压为 220V" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3GadSpZ1ZQHSwgchS2_4-6">
+          <mxGeometry x="-0.5786" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3GadSpZ1ZQHSwgchS2_4-10" value="功率为 7kw" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3GadSpZ1ZQHSwgchS2_4-6">
+          <mxGeometry x="-0.2341" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3GadSpZ1ZQHSwgchS2_4-4" value="交流桩" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3GadSpZ1ZQHSwgchS2_4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3GadSpZ1ZQHSwgchS2_4-5" target="3GadSpZ1ZQHSwgchS2_4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3GadSpZ1ZQHSwgchS2_4-14" value="输入电压为 380V" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3GadSpZ1ZQHSwgchS2_4-8">
+          <mxGeometry x="-0.6176" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3GadSpZ1ZQHSwgchS2_4-15" value="功率 &amp;gt; 60kw" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3GadSpZ1ZQHSwgchS2_4-8">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3GadSpZ1ZQHSwgchS2_4-5" value="直流桩" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3GadSpZ1ZQHSwgchS2_4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3GadSpZ1ZQHSwgchS2_4-11" target="3GadSpZ1ZQHSwgchS2_4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3GadSpZ1ZQHSwgchS2_4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3GadSpZ1ZQHSwgchS2_4-11" target="3GadSpZ1ZQHSwgchS2_4-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="450" />
+              <mxPoint x="-20" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3GadSpZ1ZQHSwgchS2_4-11" value="交流电网" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3GadSpZ1ZQHSwgchS2_4-16" value="电动汽车内部构造图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="328" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3GadSpZ1ZQHSwgchS2_4-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="830" width="320" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="3GadSpZ1ZQHSwgchS2_4-18" value="变压器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="900" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3GadSpZ1ZQHSwgchS2_4-19" value="交直流转换模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="318" y="900" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3GadSpZ1ZQHSwgchS2_4-20" value="直流桩内部构造图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="798" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
