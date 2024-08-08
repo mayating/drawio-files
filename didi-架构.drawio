@@ -156,6 +156,9 @@
         <mxCell id="fdgb_wpusmmBCs2MOBiY-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fdgb_wpusmmBCs2MOBiY-5" target="fdgb_wpusmmBCs2MOBiY-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="fdgb_wpusmmBCs2MOBiY-61" value="业务处理层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="260" y="333" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
