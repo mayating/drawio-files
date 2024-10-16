@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="第 1 页" id="lGk9jrkxKhczxA843UJX">
-    <mxGraphModel dx="3447" dy="910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4261" dy="1300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1075,6 +1075,178 @@
         </mxCell>
         <mxCell id="A37BYk_M_6NLDqsSnzc7-127" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-1455" y="1370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-128" target="A37BYk_M_6NLDqsSnzc7-130">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1140" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-128" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1190" y="1510" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-130" target="A37BYk_M_6NLDqsSnzc7-132">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1140" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-130" value="202报文上报" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="1610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-132" target="A37BYk_M_6NLDqsSnzc7-134">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1140" y="1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-132" value="查询104过程电量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-134" target="A37BYk_M_6NLDqsSnzc7-137">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1300" y="1940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-138" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A37BYk_M_6NLDqsSnzc7-136">
+          <mxGeometry x="-0.6015" y="-3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-134" target="A37BYk_M_6NLDqsSnzc7-140">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-960" y="1920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-141" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A37BYk_M_6NLDqsSnzc7-139">
+          <mxGeometry x="-0.2515" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-134" value="判断104过程电量第一个点位是否大于等于1度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-137" target="A37BYk_M_6NLDqsSnzc7-143">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1160" y="2090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-137" value="以第一个点位为平移量向下平移所有点位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1360" y="1910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-140" target="A37BYk_M_6NLDqsSnzc7-143">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1160" y="1940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-140" value="舍弃订单过程电量中所有小于1度电的点位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1020" y="1915" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-143" target="A37BYk_M_6NLDqsSnzc7-146">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1160" y="2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-143" value="处理过程电量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="1990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-146" target="A37BYk_M_6NLDqsSnzc7-148">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1370" y="2240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-149" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A37BYk_M_6NLDqsSnzc7-147">
+          <mxGeometry x="-0.4238" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-146" target="A37BYk_M_6NLDqsSnzc7-171">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-955" y="2190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-157" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A37BYk_M_6NLDqsSnzc7-155">
+          <mxGeometry x="-0.1679" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-146" value="处理后过程电量是否为空？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1235" y="2105" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-148" target="A37BYk_M_6NLDqsSnzc7-151">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1340" y="2330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-148" value="计算电量最小值：202电量 VS 104处理后最后一帧电量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1445" y="2208" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-151" target="A37BYk_M_6NLDqsSnzc7-154">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1340" y="2580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-151" value="计算分时电量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1400" y="2420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-154" target="A37BYk_M_6NLDqsSnzc7-184">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1340" y="2680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-154" value="返回 总电量、分时电量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1420" y="2560" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-159" target="A37BYk_M_6NLDqsSnzc7-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-159" value="soc计算器（直流桩）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="2420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-171" target="A37BYk_M_6NLDqsSnzc7-173">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1070" y="2280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-174" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A37BYk_M_6NLDqsSnzc7-172">
+          <mxGeometry x="-0.4057" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-171" target="A37BYk_M_6NLDqsSnzc7-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-171" value="soc是否为空？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="2188" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-173" target="A37BYk_M_6NLDqsSnzc7-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-176" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A37BYk_M_6NLDqsSnzc7-175">
+          <mxGeometry x="-0.6136" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-173" target="A37BYk_M_6NLDqsSnzc7-178">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-920" y="2450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-173" value="soc差额=0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="2283" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-178" target="A37BYk_M_6NLDqsSnzc7-181">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-890" y="2560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-178" value="0度电量结算，标记" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="2420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-181" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="2530" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-184" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1390" y="2650" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
