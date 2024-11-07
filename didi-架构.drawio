@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="第 1 页" id="lGk9jrkxKhczxA843UJX">
-    <mxGraphModel dx="7168" dy="2429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7352" dy="2534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1928,7 +1928,7 @@
             <mxPoint x="301.38" y="2113.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A37BYk_M_6NLDqsSnzc7-429" value="订单超时挂单&lt;div&gt;-交易判断大电量700&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-429" value="订单超时挂单&lt;div&gt;-交易判断大电量700&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="256.38230769230756" y="1906" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A37BYk_M_6NLDqsSnzc7-463" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-432" target="A37BYk_M_6NLDqsSnzc7-429">
@@ -1997,7 +1997,7 @@
         <mxCell id="A37BYk_M_6NLDqsSnzc7-731" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-478" target="A37BYk_M_6NLDqsSnzc7-480">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A37BYk_M_6NLDqsSnzc7-478" value="日志监控" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-478" value="日志监控（大电量）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="99.75999999999999" y="4264.64" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="A37BYk_M_6NLDqsSnzc7-480" value="报警群" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
@@ -2044,7 +2044,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A37BYk_M_6NLDqsSnzc7-498" value="缓存为空？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-498" value="缓存为空？&lt;div&gt;2d&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="258.88" y="2305.14" width="115" height="65" as="geometry" />
         </mxCell>
         <mxCell id="A37BYk_M_6NLDqsSnzc7-511" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-503" target="A37BYk_M_6NLDqsSnzc7-512">
@@ -2224,6 +2224,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-819" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-582" target="A37BYk_M_6NLDqsSnzc7-733">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="A37BYk_M_6NLDqsSnzc7-582" value="104过程电量是否为空？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="2580" width="140" height="80" as="geometry" />
         </mxCell>
@@ -2290,7 +2293,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A37BYk_M_6NLDqsSnzc7-608" value="104第一帧时间与第二帧时间差 3min 内，104第二帧电量 &amp;lt;= 3 * 桩每分钟电量" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-608" value="104第一帧时间与第二帧时间差 &lt;font color=&quot;#ff0000&quot;&gt;3min&lt;/font&gt; 内，104第二帧电量 &amp;lt;= &lt;font color=&quot;#ff0000&quot;&gt;3&lt;/font&gt; * 桩每分钟电量" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320.88" y="3433.5" width="520" height="85" as="geometry" />
         </mxCell>
         <mxCell id="A37BYk_M_6NLDqsSnzc7-642" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-610" target="A37BYk_M_6NLDqsSnzc7-654">
@@ -2419,11 +2422,11 @@
             <mxPoint x="1221.24" y="3877.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A37BYk_M_6NLDqsSnzc7-678" value="以电池容量为总值重构104过程电量&lt;div&gt;【平均分摊时长】&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-678" value="以桩每分钟电量匀速，时长重构104过程电量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1161.24" y="3708.32" width="210" height="59.18" as="geometry" />
         </mxCell>
-        <mxCell id="A37BYk_M_6NLDqsSnzc7-681" value="计算总电量=电池容量&lt;div&gt;计算分时段电量&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
-          <mxGeometry x="1206.24" y="3867.5" width="120" height="60" as="geometry" />
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-681" value="计算总电量=min(soc占比电池容量 vs 重构后的104最后一帧电量)&lt;div&gt;计算分时段电量&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="1143.4199999999998" y="3872.5" width="245.64" height="55" as="geometry" />
         </mxCell>
         <mxCell id="A37BYk_M_6NLDqsSnzc7-686" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-683" target="A37BYk_M_6NLDqsSnzc7-687">
           <mxGeometry relative="1" as="geometry">
@@ -2469,11 +2472,22 @@
             <mxPoint x="1068.38" y="4308.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A37BYk_M_6NLDqsSnzc7-690" value="以桩功率*充电时长为总值重构104过程电量&lt;div&gt;【平均分摊时长】&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-690" value="以桩每分钟电量匀速，时长重构104过程电量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="983.38" y="4201.5" width="170" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-822" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-693" target="A37BYk_M_6NLDqsSnzc7-821">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-826" value="充电时长较长" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A37BYk_M_6NLDqsSnzc7-822">
+          <mxGeometry x="-0.2198" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="A37BYk_M_6NLDqsSnzc7-693" value="计算总电量=104最后一帧电量&lt;div&gt;计算分时段电量&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
           <mxGeometry x="740.88" y="3981.5" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-824" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-696" target="A37BYk_M_6NLDqsSnzc7-821">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A37BYk_M_6NLDqsSnzc7-696" value="计算总电量=桩功率*充电时长&lt;div&gt;计算分时段电量&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
           <mxGeometry x="980.88" y="4298.5" width="175" height="60" as="geometry" />
@@ -2533,8 +2547,8 @@
             <mxPoint x="515.8800000000001" y="4428.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A37BYk_M_6NLDqsSnzc7-713" value="计算总电量=当前订单soc变化值 * 历史订单 soc比值" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
-          <mxGeometry x="455.88" y="4316.5" width="120" height="60" as="geometry" />
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-713" value="计算总电量=当前订单soc变化值 * 历史订单 soc比值(多条取平均值)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="428.82" y="4316.5" width="174.12" height="53.5" as="geometry" />
         </mxCell>
         <mxCell id="A37BYk_M_6NLDqsSnzc7-716" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e3c800;strokeColor=#B09500;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-715" target="A37BYk_M_6NLDqsSnzc7-717">
           <mxGeometry relative="1" as="geometry">
@@ -2796,6 +2810,26 @@
         </mxCell>
         <mxCell id="A37BYk_M_6NLDqsSnzc7-815" value="OS服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="-849" y="1738" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-820" value="充电时长=202结束时间-202开始时间；104备用&lt;div&gt;互联：104最后一帧&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="525" y="3813" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-827" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-821" target="A37BYk_M_6NLDqsSnzc7-828">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1370" y="4470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-821" value="与大电量阈值比较" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="4298.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-828" value="0度结算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="4440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-829" value="充电时长较长" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1241.003333333333" y="4328.495555555554" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-830" value="soc比值=本次充电量/soc变化值" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="631.38" y="4390" width="190" height="63" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
