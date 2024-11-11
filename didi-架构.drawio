@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="第 1 页" id="lGk9jrkxKhczxA843UJX">
-    <mxGraphModel dx="7352" dy="2534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6755" dy="2193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2270,6 +2270,9 @@
         <mxCell id="A37BYk_M_6NLDqsSnzc7-606" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-605" target="A37BYk_M_6NLDqsSnzc7-555">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-835" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-605" target="A37BYk_M_6NLDqsSnzc7-834">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="A37BYk_M_6NLDqsSnzc7-605" value="所有104过程电量数据以第一帧电量整体向下平移" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="840.88" y="3288.5" width="160" height="60" as="geometry" />
         </mxCell>
@@ -2311,6 +2314,9 @@
         </mxCell>
         <mxCell id="A37BYk_M_6NLDqsSnzc7-613" value="第二帧数据异常" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="847" y="3386" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-836" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-616" target="A37BYk_M_6NLDqsSnzc7-834">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A37BYk_M_6NLDqsSnzc7-616" value="所有104过程电量以第2帧电量整体向下平移" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="815.06" y="3578.5" width="183.88" height="63" as="geometry" />
@@ -2639,6 +2645,9 @@
         <mxCell id="A37BYk_M_6NLDqsSnzc7-741" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-740" target="A37BYk_M_6NLDqsSnzc7-512">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-838" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-740" target="A37BYk_M_6NLDqsSnzc7-837">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="A37BYk_M_6NLDqsSnzc7-740" value="0度结算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="555" y="2720" width="120" height="60" as="geometry" />
         </mxCell>
@@ -2830,6 +2839,21 @@
         </mxCell>
         <mxCell id="A37BYk_M_6NLDqsSnzc7-830" value="soc比值=本次充电量/soc变化值" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="631.38" y="4390" width="190" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-832" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-831" target="A37BYk_M_6NLDqsSnzc7-675">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-831" value="81%" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="790" y="3870.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-833" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.843;entryY=0.142;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A37BYk_M_6NLDqsSnzc7-831" target="A37BYk_M_6NLDqsSnzc7-693">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-834" value="9.5%" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1093.38" y="3440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A37BYk_M_6NLDqsSnzc7-837" value="9.5%" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="811.87" y="2750" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
