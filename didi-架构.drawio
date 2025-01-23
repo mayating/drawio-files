@@ -3922,7 +3922,7 @@
           <mxGeometry x="-4233.12" y="4765" width="127" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9_Z919Hb94p_5_abMeql-275" value="本次应充电量=soc差值*电池容量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3691.37" y="5175" width="263.5" height="40" as="geometry" />
+          <mxGeometry x="-3690.88" y="5200" width="263.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9_Z919Hb94p_5_abMeql-282" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-278" target="9_Z919Hb94p_5_abMeql-284">
           <mxGeometry relative="1" as="geometry">
@@ -3933,6 +3933,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-3620" y="5085" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-315" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-278" target="9_Z919Hb94p_5_abMeql-314">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9_Z919Hb94p_5_abMeql-278" value="桩额定功率" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-3995.49" y="5065" width="271" height="40" as="geometry" />
@@ -3968,8 +3971,10 @@
         <mxCell id="9_Z919Hb94p_5_abMeql-301" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-288" target="9_Z919Hb94p_5_abMeql-293">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9_Z919Hb94p_5_abMeql-310" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-288" target="9_Z919Hb94p_5_abMeql-309">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9_Z919Hb94p_5_abMeql-310" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-288" target="9_Z919Hb94p_5_abMeql-309">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3706.63" y="5325" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="9_Z919Hb94p_5_abMeql-288" value="104最后一帧和202在30s内差额不允许超过1.5度（或桩每分钟输出电量）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-3976.12" y="5275" width="269" height="50" as="geometry" />
@@ -4020,13 +4025,16 @@
           <mxGeometry x="-3669.37" y="5057.5" width="219.37" height="55" as="geometry" />
         </mxCell>
         <mxCell id="9_Z919Hb94p_5_abMeql-309" value="本次应充电量=104最后一帧电量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3647.24" y="5275" width="219.37" height="55" as="geometry" />
+          <mxGeometry x="-3646.75" y="5300" width="219.37" height="55" as="geometry" />
         </mxCell>
         <mxCell id="9_Z919Hb94p_5_abMeql-313" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-312" target="9_Z919Hb94p_5_abMeql-308">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9_Z919Hb94p_5_abMeql-312" value="104电量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-3619.53" y="4921" width="119.69" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-314" value="本次应充电量=104最后一帧电量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3670.6899999999996" y="5120" width="219.37" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
