@@ -4312,9 +4312,9 @@
         <mxCell id="9_Z919Hb94p_5_abMeql-474" value="电池容量不为空？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-5630" y="6410" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9_Z919Hb94p_5_abMeql-479" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-478" target="9_Z919Hb94p_5_abMeql-482">
+        <mxCell id="9_Z919Hb94p_5_abMeql-479" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-478" target="9_Z919Hb94p_5_abMeql-496">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-5960" y="6630" as="targetPoint" />
+            <mxPoint x="-5990" y="6600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9_Z919Hb94p_5_abMeql-481" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9_Z919Hb94p_5_abMeql-479">
@@ -4325,9 +4325,9 @@
         <mxCell id="9_Z919Hb94p_5_abMeql-478" value="202本次充电量 &amp;lt; 电池容量？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-5860" y="6510" width="190" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9_Z919Hb94p_5_abMeql-483" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-482" target="9_Z919Hb94p_5_abMeql-484">
+        <mxCell id="9_Z919Hb94p_5_abMeql-483" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-482" target="9_Z919Hb94p_5_abMeql-487">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-6150" y="6720" as="targetPoint" />
+            <mxPoint x="-6139" y="6810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9_Z919Hb94p_5_abMeql-485" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9_Z919Hb94p_5_abMeql-483">
@@ -4336,10 +4336,45 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9_Z919Hb94p_5_abMeql-482" value="soc不为空且有变化值？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-6045" y="6630" width="135" height="80" as="geometry" />
+          <mxGeometry x="-6067.5" y="6700" width="135" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9_Z919Hb94p_5_abMeql-484" value="202本次充电量 - 新电量(soc差值*电池容量) 不超过5度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-6220" y="6740" width="190" height="60" as="geometry" />
+        <mxCell id="9_Z919Hb94p_5_abMeql-488" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-487" target="9_Z919Hb94p_5_abMeql-489">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6151.5" y="6920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-487" value="计算电量=soc差值*电池容量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6229" y="6800" width="155" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-491" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-489" target="9_Z919Hb94p_5_abMeql-492">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6354" y="6980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-493" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9_Z919Hb94p_5_abMeql-491">
+          <mxGeometry x="-0.5167" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-494" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-489" target="9_Z919Hb94p_5_abMeql-495">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5944" y="7040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-489" value="202本次充电量 - 新电量(soc差值*电池容量) 不超过5度？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6260.25" y="6920" width="217.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-492" value="新电量=202本次充电量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6414" y="7050" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-495" value="新电量=soc差值*电池容量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6004" y="7050" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-497" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-496" target="9_Z919Hb94p_5_abMeql-482">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-496" value="计算soc差值（202账单，104第一帧和最后一帧soc数据）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6060" y="6600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
