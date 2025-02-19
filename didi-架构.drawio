@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.3">
   <diagram name="第 1 页" id="lGk9jrkxKhczxA843UJX">
-    <mxGraphModel dx="7549" dy="1791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="9350" dy="1889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9_Z919Hb94p_5_abMeql-514" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-6488" y="5562" width="858" height="598" as="geometry" />
+        </mxCell>
         <mxCell id="9_Z919Hb94p_5_abMeql-420" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-3948.5" y="6600" width="1267" height="620" as="geometry" />
         </mxCell>
@@ -4261,13 +4264,11 @@
         <mxCell id="9_Z919Hb94p_5_abMeql-448" value="车型-电池容量" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="-3892" y="6730" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9_Z919Hb94p_5_abMeql-463" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-449" target="9_Z919Hb94p_5_abMeql-465">
+        <mxCell id="9_Z919Hb94p_5_abMeql-498" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-516" target="9_Z919Hb94p_5_abMeql-499">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-5590" y="6220" as="targetPoint" />
+            <mxPoint x="-6189" y="5739.25" as="targetPoint" />
+            <mxPoint x="-6189" y="5660" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="9_Z919Hb94p_5_abMeql-449" value="202账单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-5650" y="6065" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9_Z919Hb94p_5_abMeql-468" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-465" target="9_Z919Hb94p_5_abMeql-469">
           <mxGeometry relative="1" as="geometry">
@@ -4375,6 +4376,236 @@
         </mxCell>
         <mxCell id="9_Z919Hb94p_5_abMeql-496" value="计算soc差值（202账单，104第一帧和最后一帧soc数据）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-6060" y="6600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-502" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-499" target="9_Z919Hb94p_5_abMeql-503">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6410" y="5900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-504" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9_Z919Hb94p_5_abMeql-502">
+          <mxGeometry x="-0.5746" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-505" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-499" target="9_Z919Hb94p_5_abMeql-506">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6040" y="5990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-507" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9_Z919Hb94p_5_abMeql-505">
+          <mxGeometry x="-0.3139" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-499" value="电量&amp;lt;=1度？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-6274" y="5758.75" width="170" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-503" value="总电量=0度；&lt;div&gt;订单打标：小电量&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6394" y="5905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-508" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-506" target="9_Z919Hb94p_5_abMeql-509">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6140" y="6100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-510" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9_Z919Hb94p_5_abMeql-508">
+          <mxGeometry x="-0.6385" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-511" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-506" target="9_Z919Hb94p_5_abMeql-512">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5740" y="6100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-513" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9_Z919Hb94p_5_abMeql-511">
+          <mxGeometry x="-0.4576" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-506" value="充电时长 &amp;lt;= 3min？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-6067.5" y="5905" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-509" value="总电量=0度；&lt;div&gt;订单打标：短时&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6200" y="6070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-512" value="下一步" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-5769" y="6070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-515" value="&lt;b&gt;短时小电量&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-5789" y="5593" width="139" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-516" value="202账单&lt;div&gt;（订单ID、vin码、充电时长=endTime-startTime）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6333.5" y="5580" width="289" height="83.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-528" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-517" target="9_Z919Hb94p_5_abMeql-519">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-517" value="202账单&lt;div&gt;（订单ID、vin码、充电时长=endTime-startTime）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-7379.5" y="5646.5" width="289" height="83.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-518" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-519" target="9_Z919Hb94p_5_abMeql-524">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-7235" y="5960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-519" value="基于订单ID查到uid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-7295" y="5810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-520" value="fulfillment&lt;div&gt;履约订单表&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-7021" y="5800" width="56" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-521" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-519" target="9_Z919Hb94p_5_abMeql-520">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-522" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-524" target="9_Z919Hb94p_5_abMeql-525">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-7023" y="5960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-523" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-524" target="9_Z919Hb94p_5_abMeql-527">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-7235" y="6070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-524" value="基于vin码+uid，查到电池容量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-7295" y="5930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-525" value="用户VIN码电池容量表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-7020" y="5920" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-529" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-527" target="9_Z919Hb94p_5_abMeql-532">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-7420" y="6140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-531" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9_Z919Hb94p_5_abMeql-529">
+          <mxGeometry x="-0.272" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-536" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-527" target="9_Z919Hb94p_5_abMeql-537">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6960" y="6190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-538" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9_Z919Hb94p_5_abMeql-536">
+          <mxGeometry x="-0.3694" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-527" value="电池容量不为空？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-7303" y="6040" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-533" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-532" target="9_Z919Hb94p_5_abMeql-534">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-7620" y="6290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-535" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9_Z919Hb94p_5_abMeql-533">
+          <mxGeometry x="-0.3847" y="-3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-539" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-532" target="9_Z919Hb94p_5_abMeql-540">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-7270" y="6290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-541" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9_Z919Hb94p_5_abMeql-539">
+          <mxGeometry x="-0.405" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-532" value="202本次充电量 &amp;gt; 电池容量 + 50？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-7540" y="6125" width="230" height="84.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-534" value="总电量=新电量计算方式；&lt;div&gt;(soc*电池容量；104最后一帧；电表度数差值)&lt;/div&gt;&lt;div&gt;订单打标：大电量&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-7740" y="6420" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-542" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-537" target="9_Z919Hb94p_5_abMeql-534">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-7180" y="6208" />
+              <mxPoint x="-7180" y="6455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-543" value="&amp;nbsp;Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9_Z919Hb94p_5_abMeql-542">
+          <mxGeometry x="-0.9235" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-544" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-537" target="9_Z919Hb94p_5_abMeql-545">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6800" y="6340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-546" value="&amp;nbsp;N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9_Z919Hb94p_5_abMeql-544">
+          <mxGeometry x="-0.5505" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-537" value="202本次充电量 &amp;gt; 104最后一帧电量 + 100？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-7130" y="6165" width="274" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-540" value="下一步" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-7280" y="6240" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-547" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-545" target="9_Z919Hb94p_5_abMeql-534">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-7060" y="6340" />
+              <mxPoint x="-7060" y="6472" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-548" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9_Z919Hb94p_5_abMeql-547">
+          <mxGeometry x="-0.8016" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-549" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-545" target="9_Z919Hb94p_5_abMeql-550">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6640" y="6460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-551" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9_Z919Hb94p_5_abMeql-549">
+          <mxGeometry x="-0.4952" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-545" value="202本次充电量 &amp;gt; 桩每分钟输出电量 * 充电时长 + 50？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6910" y="6300" width="224" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-552" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.008;entryY=0.849;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-550" target="9_Z919Hb94p_5_abMeql-534">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-6720" y="6480" />
+              <mxPoint x="-6770" y="6480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-553" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9_Z919Hb94p_5_abMeql-552">
+          <mxGeometry x="-0.7793" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-554" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9_Z919Hb94p_5_abMeql-550" target="9_Z919Hb94p_5_abMeql-555">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6470" y="6550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-556" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9_Z919Hb94p_5_abMeql-554">
+          <mxGeometry x="-0.4653" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-550" value="202本次充电量 &amp;gt; 电表度数 + 20？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6720" y="6440" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9_Z919Hb94p_5_abMeql-555" value="&amp;nbsp;下一步" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-6488" y="6550" width="88" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
