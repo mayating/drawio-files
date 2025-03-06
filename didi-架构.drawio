@@ -9,7 +9,12 @@
             <mxPoint x="-6550" y="1425" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cFJ3mbIEQXAFjpSuZLQF-82" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cFJ3mbIEQXAFjpSuZLQF-88" value="binlog&lt;div&gt;数据同步&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cFJ3mbIEQXAFjpSuZLQF-85">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFJ3mbIEQXAFjpSuZLQF-82" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="-7325" y="1320" width="655" height="210" as="geometry" />
         </mxCell>
         <mxCell id="9_Z919Hb94p_5_abMeql-601" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
@@ -4891,7 +4896,7 @@
         <mxCell id="cFJ3mbIEQXAFjpSuZLQF-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.635;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cFJ3mbIEQXAFjpSuZLQF-41" target="cFJ3mbIEQXAFjpSuZLQF-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cFJ3mbIEQXAFjpSuZLQF-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cFJ3mbIEQXAFjpSuZLQF-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-7170" y="953" width="510" height="147" as="geometry" />
         </mxCell>
         <mxCell id="cFJ3mbIEQXAFjpSuZLQF-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.181;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cFJ3mbIEQXAFjpSuZLQF-49" target="cFJ3mbIEQXAFjpSuZLQF-52">
@@ -4917,22 +4922,22 @@
             <mxPoint x="-7000" y="1270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cFJ3mbIEQXAFjpSuZLQF-52" value="分表组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cFJ3mbIEQXAFjpSuZLQF-52" value="分表组件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-7080" y="1073" width="160" height="43.38" as="geometry" />
         </mxCell>
         <mxCell id="cFJ3mbIEQXAFjpSuZLQF-57" value="应用" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-7170" y="1005.5" width="43" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="cFJ3mbIEQXAFjpSuZLQF-58" value="路由表&lt;div&gt;根据设备ID&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cFJ3mbIEQXAFjpSuZLQF-58" value="路由&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;表&lt;/font&gt;&lt;div&gt;根据设备ID&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-7170" y="1084.38" width="80" height="32" as="geometry" />
         </mxCell>
         <mxCell id="cFJ3mbIEQXAFjpSuZLQF-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cFJ3mbIEQXAFjpSuZLQF-60" target="cFJ3mbIEQXAFjpSuZLQF-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cFJ3mbIEQXAFjpSuZLQF-60" value="DB Proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cFJ3mbIEQXAFjpSuZLQF-60" value="DB Proxy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-7080" y="1190" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cFJ3mbIEQXAFjpSuZLQF-61" value="路由库&lt;div&gt;根据映射配置表&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cFJ3mbIEQXAFjpSuZLQF-61" value="路由&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;库&lt;/font&gt;&lt;div&gt;根据映射配置表&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-7200" y="1197" width="120" height="46" as="geometry" />
         </mxCell>
         <mxCell id="cFJ3mbIEQXAFjpSuZLQF-62" value="DB1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
